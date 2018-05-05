@@ -6,8 +6,7 @@
   numVect.insert(numVect.begin()+1, numArr, 10) . // output: 1, 10, 2, 3
 ```
 
-## vector
-Iterators:
+**Iterators**:
 `begin`: Return iterator to beginning (public member function ) . 
 `end`: Return iterator to end (public member function ) . 
 `rbegin`: Return reverse iterator to reverse beginning (public member function ) . 
@@ -17,7 +16,7 @@ Iterators:
 `crbegin `: Return const_reverse_iterator to reverse beginning (public member function ) . 
 `crend `: Return const_reverse_iterator to reverse end (public member function ) . 
 
-### Capacity:
+**Capacity**:
 `size`: Return size (public member function ) . 
 `max_size`: Return maximum size (public member function ) .  
 `resize`: Change size (public member function ) . 
@@ -26,14 +25,14 @@ Iterators:
 `reserve`:Request a change in capacity (public member function ) . 
 `shrink_to_fit`: Shrink to fit (public member function ) . 
 
-### Element access:
+**Element access**:
 `operator[]`: Access element (public member function ) . 
 `at`: Access element (public member function ) . 
 `front`: Access first element (public member function ) . 
 `back`: Access last element (public member function ) . 
 `data`: Access data (public member function ) . 
 
-### Modifiers:
+**Modifiers**:
 `assign`: Assign vector content (public member function ) . 
 `push_back`: Add element at the end (public member function ) . 
 `pop_back`: Delete last element (public member function ) . 
@@ -44,5 +43,5 @@ Iterators:
 `emplace `: Construct and insert element (public member function ) . 
 `emplace_back `: Construct and insert element at the end (public member function ) . 
 
-### Allocator:
+**Allocator**:
 `get_allocator`: Get allocator (public member function ) . 
