@@ -45,3 +45,7 @@
 
 **Allocator**:
 `get_allocator`: Get allocator (public member function ) . 
+
+
+**Usage Examples**
+`vector<int> ans(n, 0); // Initialise a new vector of size n, and fill it with 0`
