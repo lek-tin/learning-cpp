@@ -45,3 +45,4 @@
 
 **Allocator**:
 `get_allocator`: Get allocator (public member function ) . 
+
